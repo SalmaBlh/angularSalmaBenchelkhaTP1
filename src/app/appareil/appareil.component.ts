@@ -12,7 +12,7 @@ export class AppareilComponent implements OnInit {
   @Input() appareil! : Appareil
 
   ngOnInit(): void {
+    throw new Error('Méthode non implémenté.');
   }
-
 
 }
